@@ -1,0 +1,285 @@
+[ {
+  "name": "Karim",
+  "githubUsername": "ktaoudi",
+  "description": "Computer science evangalist, java and js craftsman",
+  "projects": [
+    {
+      "projectName": "Ecommorece App",
+      "Technologies": ["Docker", "js", "node", "nestjs"]
+    },
+    {
+      "projectName": "Renault Api",
+      "Technologies": ["Docker", "spring", "java 11", "spring"]
+    },
+    {
+      "projectName": "Design Sys",
+      "Technologies": ["AWS", "aem", "React"]
+    }
+  ]
+},
+{
+  "name": "Josh",
+  "githubUsername": "joshlong",
+  "description": "Josh is the Spring Developer Advocate at VMware, an open-source hacker, book/video author and speaker",
+  "projects": [
+    {
+      "projectName": "Spring cloud",
+      "Technologies": ["Docker", "java", "spring"]
+    },
+    {
+      "projectName": "spring-graphql",
+      "Technologies": ["spring", "graphQL"]
+    },
+    {
+      "projectName": "Redisftw",
+      "Technologies": ["Redis", "Aws"]
+    }
+  ]
+},
+{
+  "name": "Terence Lee",
+  "githubUsername": "hone",
+  "description": "Blue Hat League",
+  "projects": [
+    {
+      "projectName": "heroku-sendgrid-stats",
+      "Technologies": ["heroku plugins", "java"]
+    },
+    {
+      "projectName": "git_pivot",
+      "Technologies": ["docker-compose", "GO", "git"]
+    }
+  ]
+},
+{
+  "name": "Marcin Grzejszczak",
+  "githubUsername": "marcingrzejszczak",
+  "projects": [
+    {
+      "projectName": "mockito-cookbook",
+      "Technologies": ["Mockito", "junit", "java"]
+    },
+    {
+      "projectName": "jsonassert",
+      "Technologies": ["maven", "assert", "java 11", "spring"]
+    },
+    {
+      "projectName": "gradle-test-profiler",
+      "Technologies": ["gradle", "kotlin"]
+    }
+  ]
+},
+{
+  "name": "Karim",
+  "githubUsername": "ktaoudi",
+  "description": "Computer science evangalist, java and js craftsman",
+  "projects": [
+    {
+      "projectName": "Ecommorece App",
+      "Technologies": ["Docker", "js", "node", "nestjs"]
+    },
+    {
+      "projectName": "Renault Api",
+      "Technologies": ["Docker", "spring", "java 11", "spring"]
+    },
+    {
+      "projectName": "Design Sys",
+      "Technologies": ["AWS", "aem", "React"]
+    }
+  ]
+},
+{
+  "name": "Josh",
+  "githubUsername": "joshlong",
+  "description": "Josh is the Spring Developer Advocate at VMware, an open-source hacker, book/video author and speaker",
+  "projects": [
+    {
+      "projectName": "Spring cloud",
+      "Technologies": ["Docker", "java", "spring"]
+    },
+    {
+      "projectName": "spring-graphql",
+      "Technologies": ["spring", "graphQL"]
+    },
+    {
+      "projectName": "Redisftw",
+      "Technologies": ["Redis", "Aws"]
+    }
+  ]
+},
+{
+  "name": "Terence Lee",
+  "githubUsername": "hone",
+  "description": "Blue Hat League",
+  "projects": [
+    {
+      "projectName": "heroku-sendgrid-stats",
+      "Technologies": ["heroku plugins", "java"]
+    },
+    {
+      "projectName": "git_pivot",
+      "Technologies": ["docker-compose", "GO", "git"]
+    }
+  ]
+},
+{
+  "name": "Marcin Grzejszczak",
+  "githubUsername": "marcingrzejszczak",
+  "projects": [
+    {
+      "projectName": "mockito-cookbook",
+      "Technologies": ["Mockito", "junit", "java"]
+    },
+    {
+      "projectName": "jsonassert",
+      "Technologies": ["maven", "assert", "java 11", "spring"]
+    },
+    {
+      "projectName": "gradle-test-profiler",
+      "Technologies": ["gradle", "kotlin"]
+    }
+  ]
+},
+{
+  "name": "Karim",
+  "githubUsername": "ktaoudi",
+  "description": "Computer science evangalist, java and js craftsman",
+  "projects": [
+    {
+      "projectName": "Ecommorece App",
+      "Technologies": ["Docker", "js", "node", "nestjs"]
+    },
+    {
+      "projectName": "Renault Api",
+      "Technologies": ["Docker", "spring", "java 11", "spring"]
+    },
+    {
+      "projectName": "Design Sys",
+      "Technologies": ["AWS", "aem", "React"]
+    }
+  ]
+},
+{
+  "name": "Josh",
+  "githubUsername": "joshlong",
+  "description": "Josh is the Spring Developer Advocate at VMware, an open-source hacker, book/video author and speaker",
+  "projects": [
+    {
+      "projectName": "Spring cloud",
+      "Technologies": ["Docker", "java", "spring"]
+    },
+    {
+      "projectName": "spring-graphql",
+      "Technologies": ["spring", "graphQL"]
+    },
+    {
+      "projectName": "Redisftw",
+      "Technologies": ["Redis", "Aws"]
+    }
+  ]
+},
+{
+  "name": "Terence Lee",
+  "githubUsername": "hone",
+  "description": "Blue Hat League",
+  "projects": [
+    {
+      "projectName": "heroku-sendgrid-stats",
+      "Technologies": ["heroku plugins", "java"]
+    },
+    {
+      "projectName": "git_pivot",
+      "Technologies": ["docker-compose", "GO", "git"]
+    }
+  ]
+},
+{
+  "name": "Marcin Grzejszczak",
+  "githubUsername": "marcingrzejszczak",
+  "projects": [
+    {
+      "projectName": "mockito-cookbook",
+      "Technologies": ["Mockito", "junit", "java"]
+    },
+    {
+      "projectName": "jsonassert",
+      "Technologies": ["maven", "assert", "java 11", "spring"]
+    },
+    {
+      "projectName": "gradle-test-profiler",
+      "Technologies": ["gradle", "kotlin"]
+    }
+  ]
+},
+{
+  "name": "Karim",
+  "githubUsername": "ktaoudi",
+  "description": "Computer science evangalist, java and js craftsman",
+  "projects": [
+    {
+      "projectName": "Ecommorece App",
+      "Technologies": ["Docker", "js", "node", "nestjs"]
+    },
+    {
+      "projectName": "Renault Api",
+      "Technologies": ["Docker", "spring", "java 11", "spring"]
+    },
+    {
+      "projectName": "Design Sys",
+      "Technologies": ["AWS", "aem", "React"]
+    }
+  ]
+},
+{
+  "name": "Josh",
+  "githubUsername": "joshlong",
+  "description": "Josh is the Spring Developer Advocate at VMware, an open-source hacker, book/video author and speaker",
+  "projects": [
+    {
+      "projectName": "Spring cloud",
+      "Technologies": ["Docker", "java", "spring"]
+    },
+    {
+      "projectName": "spring-graphql",
+      "Technologies": ["spring", "graphQL"]
+    },
+    {
+      "projectName": "Redisftw",
+      "Technologies": ["Redis", "Aws"]
+    }
+  ]
+},
+{
+  "name": "Terence Lee",
+  "githubUsername": "hone",
+  "description": "Blue Hat League",
+  "projects": [
+    {
+      "projectName": "heroku-sendgrid-stats",
+      "Technologies": ["heroku plugins", "java"]
+    },
+    {
+      "projectName": "git_pivot",
+      "Technologies": ["docker-compose", "GO", "git"]
+    }
+  ]
+},
+{
+  "name": "Marcin Grzejszczak",
+  "githubUsername": "marcingrzejszczak",
+  "projects": [
+    {
+      "projectName": "mockito-cookbook",
+      "Technologies": ["Mockito", "junit", "java"]
+    },
+    {
+      "projectName": "jsonassert",
+      "Technologies": ["maven", "assert", "java 11", "spring"]
+    },
+    {
+      "projectName": "gradle-test-profiler",
+      "Technologies": ["gradle", "kotlin"]
+    }
+  ]
+}
+]

@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  keiken-frontend:
+    image: keiken-frontend
+    container_name: keiken-frontend
+    build:
+      context: keiken-frontend
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'
+  keiken-backend:
+    container_name: keiken-backend
+    build:
+      context: keiken-backend
+      dockerfile: Dockerfile
+    ports:
+    - '8080:8080'

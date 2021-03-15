@@ -1,0 +1,17 @@
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.tag-project{
+  color: #f5f6f9;
+  display: inline;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #0a0e58;
+  padding: 5px;
+  position: relative;
+}

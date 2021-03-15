@@ -1,0 +1,27 @@
+<main>
+  <router-outlet></router-outlet>
+    <div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+      <div class="searchbar">
+        <input class="search_input" type="text" name="" placeholder="Search..." [(ngModel)]="searchedKey" (ngModelChange)="onModelChange()">
+        <a class="search_icon"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+  </div>
+  <ol class="gradient-list">
+    <li  *ngFor="let developer of data" >
+      <div class="container">
+      <div #developer (click)="clickDeveloper(developer)" class="info row justify-content-between">
+        <div class="col">
+          <h2 class="title">{{developer.username}}</h2>
+          <p class="desc">{{developer.name}}</p>
+        </div>
+        <div class="col d-flex flex-row-reverse">
+          <img src="{{developer.urlAvatar}}" alt="Avatar" class="avatar p-2">
+        </div>
+      </div>
+      </div>
+    </li>
+  </ol>
+</main>
+
