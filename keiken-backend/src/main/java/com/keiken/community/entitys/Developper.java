@@ -15,8 +15,8 @@ public class Developper {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String username;
+    private String githubUsername;
     private String urlAvatar;
     @OneToMany(mappedBy="developper")
-    private List<Project> projets;
+    private List<Project> projects;
 }

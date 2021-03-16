@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
@@ -12,7 +13,8 @@ public class Project {
     @Id @GeneratedValue( strategy = GenerationType.IDENTITY)
     private Long id;
     private String projectName;
-    private String technologies;
+    @Transient
+    private List<String> technologies;
     @ManyToOne()
     private Developper developper;
 }

@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 import {Router} from '@angular/router';
-import {Developer} from '../../entity/developer';
+import {Developper} from '../../entity/developper';
 
 @Component({
   selector: 'app-modal-content',
@@ -18,7 +18,7 @@ import {Developer} from '../../entity/developer';
           <img src="{{developer.urlAvatar}}" alt="Avatar" class=" avatar p-2">
         </div>
         <div class="row d-flex justify-content-center">
-          <h1>{{developer.username}}</h1>
+          <h1>{{developer.githubUsername}}</h1>
         </div>
         <div class="col d-flex justify-content-center">
           <h2>{{developer.name}}</h2>
@@ -32,7 +32,7 @@ import {Developer} from '../../entity/developer';
               </tr>
             </thead>
             <tbody>
-            <tr *ngFor="let project of developer.projets">
+            <tr *ngFor="let project of developer.projects">
               <td>{{project['projectName']}}</td>
               <td>
                 <div *ngFor="let tag of project['Technologies']" class="tag-project">
@@ -53,7 +53,7 @@ import {Developer} from '../../entity/developer';
 })
 export class ModalContentComponent implements OnInit {
 
-  @Input() developer:Developer
+  @Input() developer:Developper
 
   constructor(public activeModal: NgbActiveModal, private router: Router) { }
 

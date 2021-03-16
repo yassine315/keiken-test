@@ -1,9 +1,10 @@
 import {Component, OnInit} from '@angular/core';
 import {RestClientService} from './services/REST-client/rest-client.service';
-import {Developer} from './entity/developer';
+import {Developper} from './entity/developper';
 import {CurentDeveloperService} from './services/curent-developer/curent-developer.service';
 import {Route, Router} from '@angular/router';
 import {Project} from './entity/project';
+import {ChargeDataService} from './services/charge-data/charge.data.service';
 
 @Component({
   selector: 'app-root',
@@ -12,14 +13,14 @@ import {Project} from './entity/project';
 })
 export class AppComponent implements OnInit{
 
-  data:Array<Developer> = new Array<Developer>();
-  dataFilter:Array<Developer> = new Array<Developer>();
+  data:Array<Developper> = new Array<Developper>();
+  dataFilter:Array<Developper> = new Array<Developper>();
 
   searchedKey:string = ""
 
   title = 'Keiken';
 
-  constructor(private restClient:RestClientService, private curentDeveloper: CurentDeveloperService, private router:Router) {}
+  constructor(private restClient:RestClientService, private curentDeveloper: CurentDeveloperService, private router:Router, private chargeData: ChargeDataService) {}
 
   clickDeveloper(developer) {
     this.curentDeveloper.setDeveloper(developer)
@@ -29,11 +30,12 @@ export class AppComponent implements OnInit{
    ngOnInit(): void {
     this.restClient.getData().subscribe(
       (data: []) => {
+        data = data['_embedded']['developpers']
         data.forEach(user => {
           this.restClient.getUserGitHub(user['githubUsername']).subscribe(
             gitHubUser => {
-              this.data.push(new Developer(user['name'], user['githubUsername'], gitHubUser['avatar_url'], user['projects']))
-              this.dataFilter.push(new Developer(user['name'], user['githubUsername'], gitHubUser['avatar_url'], user['projects']))
+              this.data.push(new Developper(user['name'], user['githubUsername'], gitHubUser['avatar_url'], user['projects']))
+              this.dataFilter.push(new Developper(user['name'], user['githubUsername'], gitHubUser['avatar_url'], user['projects']))
             }
 
           )
@@ -44,7 +46,7 @@ export class AppComponent implements OnInit{
 
   onModelChange(){
     this.data = this.dataFilter.filter((value) => {
-      for (let project of value.projets){
+      for (let project of value.projects){
           if(project.projectName.includes(this.searchedKey)){
             return true;
           }
@@ -52,5 +54,17 @@ export class AppComponent implements OnInit{
       return false
     })
     console.log(this.data.length)
+  }
+
+  chargerData() {
+      this.chargeData.getJsonData().subscribe(
+        (data:Developper[]) =>{
+          console.log(data)
+          data.forEach(user =>{
+            this.restClient.postDevelopper(user).subscribe()
+          })
+        }
+      );
+
   }
 }

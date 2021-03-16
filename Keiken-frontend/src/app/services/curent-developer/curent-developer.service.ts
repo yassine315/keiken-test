@@ -1,17 +1,17 @@
 import { Injectable } from '@angular/core';
 import {ModalComponentM} from '../../component/modal/modal.componentm';
-import {Developer} from '../../entity/developer';
+import {Developper} from '../../entity/developper';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CurentDeveloperService {
 
-  currentDeveloper: Developer
+  currentDeveloper: Developper
 
   constructor(private modal: ModalComponentM) { }
 
-  setDeveloper(developer:Developer){
+  setDeveloper(developer:Developper){
     this.currentDeveloper = developer
     this.modal.setDeveloper(developer)
   }

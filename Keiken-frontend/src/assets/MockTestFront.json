@@ -5,15 +5,15 @@
   "projects": [
     {
       "projectName": "Ecommorece App",
-      "Technologies": ["Docker", "js", "node", "nestjs"]
+      "technologies": ["Docker", "js", "node", "nestjs"]
     },
     {
       "projectName": "Renault Api",
-      "Technologies": ["Docker", "spring", "java 11", "spring"]
+      "technologies": ["Docker", "spring", "java 11", "spring"]
     },
     {
       "projectName": "Design Sys",
-      "Technologies": ["AWS", "aem", "React"]
+      "technologies": ["AWS", "aem", "React"]
     }
   ]
 },
@@ -24,15 +24,15 @@
   "projects": [
     {
       "projectName": "Spring cloud",
-      "Technologies": ["Docker", "java", "spring"]
+      "technologies": ["Docker", "java", "spring"]
     },
     {
       "projectName": "spring-graphql",
-      "Technologies": ["spring", "graphQL"]
+      "technologies": ["spring", "graphQL"]
     },
     {
       "projectName": "Redisftw",
-      "Technologies": ["Redis", "Aws"]
+      "technologies": ["Redis", "Aws"]
     }
   ]
 },
@@ -43,11 +43,11 @@
   "projects": [
     {
       "projectName": "heroku-sendgrid-stats",
-      "Technologies": ["heroku plugins", "java"]
+      "technologies": ["heroku plugins", "java"]
     },
     {
       "projectName": "git_pivot",
-      "Technologies": ["docker-compose", "GO", "git"]
+      "technologies": ["docker-compose", "GO", "git"]
     }
   ]
 },
@@ -57,15 +57,15 @@
   "projects": [
     {
       "projectName": "mockito-cookbook",
-      "Technologies": ["Mockito", "junit", "java"]
+      "technologies": ["Mockito", "junit", "java"]
     },
     {
       "projectName": "jsonassert",
-      "Technologies": ["maven", "assert", "java 11", "spring"]
+      "technologies": ["maven", "assert", "java 11", "spring"]
     },
     {
       "projectName": "gradle-test-profiler",
-      "Technologies": ["gradle", "kotlin"]
+      "technologies": ["gradle", "kotlin"]
     }
   ]
 },
@@ -76,15 +76,15 @@
   "projects": [
     {
       "projectName": "Ecommorece App",
-      "Technologies": ["Docker", "js", "node", "nestjs"]
+      "technologies": ["Docker", "js", "node", "nestjs"]
     },
     {
       "projectName": "Renault Api",
-      "Technologies": ["Docker", "spring", "java 11", "spring"]
+      "technologies": ["Docker", "spring", "java 11", "spring"]
     },
     {
       "projectName": "Design Sys",
-      "Technologies": ["AWS", "aem", "React"]
+      "technologies": ["AWS", "aem", "React"]
     }
   ]
 },
@@ -95,15 +95,15 @@
   "projects": [
     {
       "projectName": "Spring cloud",
-      "Technologies": ["Docker", "java", "spring"]
+      "technologies": ["Docker", "java", "spring"]
     },
     {
       "projectName": "spring-graphql",
-      "Technologies": ["spring", "graphQL"]
+      "technologies": ["spring", "graphQL"]
     },
     {
       "projectName": "Redisftw",
-      "Technologies": ["Redis", "Aws"]
+      "technologies": ["Redis", "Aws"]
     }
   ]
 },
@@ -114,11 +114,11 @@
   "projects": [
     {
       "projectName": "heroku-sendgrid-stats",
-      "Technologies": ["heroku plugins", "java"]
+      "technologies": ["heroku plugins", "java"]
     },
     {
       "projectName": "git_pivot",
-      "Technologies": ["docker-compose", "GO", "git"]
+      "technologies": ["docker-compose", "GO", "git"]
     }
   ]
 },
@@ -128,15 +128,15 @@
   "projects": [
     {
       "projectName": "mockito-cookbook",
-      "Technologies": ["Mockito", "junit", "java"]
+      "technologies": ["Mockito", "junit", "java"]
     },
     {
       "projectName": "jsonassert",
-      "Technologies": ["maven", "assert", "java 11", "spring"]
+      "technologies": ["maven", "assert", "java 11", "spring"]
     },
     {
       "projectName": "gradle-test-profiler",
-      "Technologies": ["gradle", "kotlin"]
+      "technologies": ["gradle", "kotlin"]
     }
   ]
 },
@@ -147,15 +147,15 @@
   "projects": [
     {
       "projectName": "Ecommorece App",
-      "Technologies": ["Docker", "js", "node", "nestjs"]
+      "technologies": ["Docker", "js", "node", "nestjs"]
     },
     {
       "projectName": "Renault Api",
-      "Technologies": ["Docker", "spring", "java 11", "spring"]
+      "technologies": ["Docker", "spring", "java 11", "spring"]
     },
     {
       "projectName": "Design Sys",
-      "Technologies": ["AWS", "aem", "React"]
+      "technologies": ["AWS", "aem", "React"]
     }
   ]
 },
@@ -166,15 +166,15 @@
   "projects": [
     {
       "projectName": "Spring cloud",
-      "Technologies": ["Docker", "java", "spring"]
+      "technologies": ["Docker", "java", "spring"]
     },
     {
       "projectName": "spring-graphql",
-      "Technologies": ["spring", "graphQL"]
+      "technologies": ["spring", "graphQL"]
     },
     {
       "projectName": "Redisftw",
-      "Technologies": ["Redis", "Aws"]
+      "technologies": ["Redis", "Aws"]
     }
   ]
 },
@@ -185,11 +185,11 @@
   "projects": [
     {
       "projectName": "heroku-sendgrid-stats",
-      "Technologies": ["heroku plugins", "java"]
+      "technologies": ["heroku plugins", "java"]
     },
     {
       "projectName": "git_pivot",
-      "Technologies": ["docker-compose", "GO", "git"]
+      "technologies": ["docker-compose", "GO", "git"]
     }
   ]
 },
@@ -199,15 +199,15 @@
   "projects": [
     {
       "projectName": "mockito-cookbook",
-      "Technologies": ["Mockito", "junit", "java"]
+      "technologies": ["Mockito", "junit", "java"]
     },
     {
       "projectName": "jsonassert",
-      "Technologies": ["maven", "assert", "java 11", "spring"]
+      "technologies": ["maven", "assert", "java 11", "spring"]
     },
     {
       "projectName": "gradle-test-profiler",
-      "Technologies": ["gradle", "kotlin"]
+      "technologies": ["gradle", "kotlin"]
     }
   ]
 },
@@ -218,15 +218,15 @@
   "projects": [
     {
       "projectName": "Ecommorece App",
-      "Technologies": ["Docker", "js", "node", "nestjs"]
+      "technologies": ["Docker", "js", "node", "nestjs"]
     },
     {
       "projectName": "Renault Api",
-      "Technologies": ["Docker", "spring", "java 11", "spring"]
+      "technologies": ["Docker", "spring", "java 11", "spring"]
     },
     {
       "projectName": "Design Sys",
-      "Technologies": ["AWS", "aem", "React"]
+      "technologies": ["AWS", "aem", "React"]
     }
   ]
 },
@@ -237,15 +237,15 @@
   "projects": [
     {
       "projectName": "Spring cloud",
-      "Technologies": ["Docker", "java", "spring"]
+      "technologies": ["Docker", "java", "spring"]
     },
     {
       "projectName": "spring-graphql",
-      "Technologies": ["spring", "graphQL"]
+      "technologies": ["spring", "graphQL"]
     },
     {
       "projectName": "Redisftw",
-      "Technologies": ["Redis", "Aws"]
+      "technologies": ["Redis", "Aws"]
     }
   ]
 },
@@ -256,11 +256,11 @@
   "projects": [
     {
       "projectName": "heroku-sendgrid-stats",
-      "Technologies": ["heroku plugins", "java"]
+      "technologies": ["heroku plugins", "java"]
     },
     {
       "projectName": "git_pivot",
-      "Technologies": ["docker-compose", "GO", "git"]
+      "technologies": ["docker-compose", "GO", "git"]
     }
   ]
 },
@@ -270,15 +270,15 @@
   "projects": [
     {
       "projectName": "mockito-cookbook",
-      "Technologies": ["Mockito", "junit", "java"]
+      "technologies": ["Mockito", "junit", "java"]
     },
     {
       "projectName": "jsonassert",
-      "Technologies": ["maven", "assert", "java 11", "spring"]
+      "technologies": ["maven", "assert", "java 11", "spring"]
     },
     {
       "projectName": "gradle-test-profiler",
-      "Technologies": ["gradle", "kotlin"]
+      "technologies": ["gradle", "kotlin"]
     }
   ]
 }

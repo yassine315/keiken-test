@@ -13,7 +13,7 @@
       <div class="container">
       <div #developer (click)="clickDeveloper(developer)" class="info row justify-content-between">
         <div class="col">
-          <h2 class="title">{{developer.username}}</h2>
+          <h2 class="title">{{developer.githubUsername}}</h2>
           <p class="desc">{{developer.name}}</p>
         </div>
         <div class="col d-flex flex-row-reverse">
@@ -23,5 +23,6 @@
       </div>
     </li>
   </ol>
+  <button class="btn-primary" (click)="chargerData()">charger les donnee</button>
 </main>
 

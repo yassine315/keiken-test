@@ -3,7 +3,7 @@ import {NgbModal, ModalDismissReasons, NgbModalConfig, NgbActiveModal, NgbModalR
 import {CurentDeveloperService} from '../../services/curent-developer/curent-developer.service';
 import {any} from 'codelyzer/util/function';
 import {Router} from '@angular/router';
-import {Developer} from '../../entity/developer';
+import {Developper} from '../../entity/developper';
 import {ModalContentComponent} from '../modal-content/modal-content.component';
 
 
@@ -22,7 +22,7 @@ export class ModalComponentM{
   content:  TemplateRef<any>;
 
   @Input()
-  curentDeveloper: Developer
+  curentDeveloper: Developper
 
 
   constructor( private modalService: NgbModal, private modalConf:NgbModalConfig, private router:Router, public activeModal: NgbActiveModal) {
